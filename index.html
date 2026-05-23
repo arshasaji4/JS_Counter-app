@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Counter App</title>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-500 via-purple-00 to-purple-500 flex items-center justify-center h-screen">
+
+    <div class="bg-white shadow-lg rounded-2xl p-8 text-center w-90">
+
+        <h1 class="text-3xl font-bold mb-6 text-gray-800">
+            Counter App
+        </h1>
+
+        <!-- Counter Value -->
+        <h2 id="count" class="text-5xl font-bold text-blue-600 mb-6">
+            0
+        </h2>
+
+        <!-- Buttons -->
+        <div class="flex justify-center gap-4">
+
+            <button id="decrease" class="bg-green-600 hover:bg-red-600 text-white px-4 py-2 rounded-lg text-xl">
+                Decreaese
+            </button>
+
+            <button id="reset" class="bg-gray-500 hover:bg-black text-white px-4 py-2 rounded-lg">
+                Reset
+            </button>
+
+            <button id="increase" class="bg-yellow-300 hover:bg-red-600 text-white px-4 py-2 rounded-lg text-xl">
+                Increase
+            </button>
+
+
+
+            <script src="script.js"></script>
+</body>
+
+</html>
