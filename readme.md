@@ -2,7 +2,7 @@
 A simple and responsive Counter App built using HTML, Tailwind CSS, and JavaScript.This project helps beginners understand DOM manipulation, event handling, and UI styling with Tailwind CSS
 
 ## Live at
-[live@]()
+[live@](https://jscounterappz.netlify.app/)
 
 ## Features
 - Increase counter value
